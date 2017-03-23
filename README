@@ -6,5 +6,5 @@ This role deploys Oracle Java 8 on a Debian host.
 - hosts: mesos-master
   remote_user: root
   roles:
-    - mesos
+    - java
 ```
